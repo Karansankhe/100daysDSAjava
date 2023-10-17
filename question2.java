@@ -16,4 +16,5 @@ public class question2 {
         int ind = lowerBound(arr, n, x);
         System.out.println("The lower bound is the index: " + ind);
     }
+
 }
