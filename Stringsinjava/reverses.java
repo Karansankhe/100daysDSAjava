@@ -3,7 +3,7 @@ class Solution {
         // Split the string into words using one or more spaces as the delimiter
         String[] words = s.trim().split("\\s+");
         
-        // Reverse the array of words
+        
         int left = 0, right = words.length - 1;
         while (left < right) {
             // Swap words at left and right indices
