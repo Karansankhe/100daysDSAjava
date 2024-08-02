@@ -3,7 +3,7 @@ public class que4 {
     public static int searchInsert(int [] arr, int x) {
         int n = arr.length; // size of the array
         int low = 0, high = n - 1;
-        int ans = n;
+        int ans = n
 
         while(low<=high){
             int mid = (low+high)/2;
